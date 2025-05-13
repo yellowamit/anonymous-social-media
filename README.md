@@ -1,8 +1,7 @@
 
 
----
 
-````markdown
+
 # 🕵️ Anonymous Secrets App
 
 A full-stack Node.js web application that lets users **share their secrets anonymously** after signing up or logging in via email/password or **Google OAuth**. Secrets are stored in a **MongoDB** database and displayed publicly — without revealing the identity of the person behind them.
