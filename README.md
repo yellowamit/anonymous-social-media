@@ -148,11 +148,6 @@ MIT License. Free to use and modify for educational or non-commercial purposes.
 
 ---
 
-## 🙏 Acknowledgements
-
-This app is inspired by the [Angela Yu Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/), with extensions and improvements.
-
----
 
 ## 💬 Feedback
 
