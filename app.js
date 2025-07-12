@@ -17,7 +17,7 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 //"mongodb://localhost:27017/socialDb"
-mongoose.connect("mongodb+srv://proces.env.ADMIN:process.env.PASS@cluster0.1xhvswt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(() => console.log('MongoDB connected'))
+mongoose.connect(`mongodb+srv://${process.env.ADMIN}:${process.env.PASS}@cluster0.1xhvswt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`).then(() => console.log('MongoDB connected'))
   .catch(err => console.error(err));
 
 
